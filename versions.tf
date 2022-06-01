@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "gkranasinghe"
+  # cloud {
+  #   organization = "gkranasinghe"
 
-    workspaces {
-      name = "www-prod"
-    }
-  }
+  #   workspaces {
+  #     name = "www-prod"
+  #   }
+  # }
 
   required_providers {
     aws = {
